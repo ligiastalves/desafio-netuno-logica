@@ -22,3 +22,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+![desafio_print](https://github.com/user-attachments/assets/ea10ffbd-3e83-4a74-b52b-2329fb7d5b34)
+
+![netuno](https://github.com/user-attachments/assets/37297117-f922-4334-9137-7052478f9115)
