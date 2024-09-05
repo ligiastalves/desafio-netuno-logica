@@ -1,8 +1,11 @@
-public class Guerreiro {
+package model;
+
+public class Arqueiro {
     private String modeloArma;
+
     public void escolherArma() {
-        System.out.println("Você escolheu a classe Guerreiro.");
-        modeloArma = "Espada e Escudo";
+        System.out.println("Você escolheu a classe Arqueiro.");
+        modeloArma = "Arco";
 
     }
 

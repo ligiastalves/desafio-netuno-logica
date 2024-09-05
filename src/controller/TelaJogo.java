@@ -1,3 +1,12 @@
+package controller;
+
+import model.Paladino;
+import model.Atirador;
+import model.Guerreiro;
+import model.Barbaro;
+import model.Arqueiro;
+import view.TelaAvatar;
+
 import java.util.Scanner;
 
 public class TelaJogo {

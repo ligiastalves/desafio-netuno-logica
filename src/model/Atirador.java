@@ -1,3 +1,5 @@
+package model;
+
 public class Atirador {
     private String modeloArma;
 

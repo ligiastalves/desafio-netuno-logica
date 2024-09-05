@@ -8,20 +8,25 @@ Transformar o pseudocódigo do desafio de lógica em um programa funcional em Ja
 
 ## Estrutura do Projeto
 
-O projeto será organizado em diferentes pacotes e classes para melhor modularização e manutenção do código. A seguir, uma visão geral da estrutura:
+O projeto está organizado em diferentes pacotes e classes para melhor modularização e manutenção do código. A seguir, uma visão geral da estrutura:
 
 - **src/**: Diretório principal contendo o código-fonte Java.
-  - **projeto.netuno/**: Pacote raiz do projeto.
-    - **model/**: Contém as classes de modelo representando os principais componentes do desafio.
-    - **controller/**: Contém as classes responsáveis pela lógica de controle do programa.
-    - **view/**: Contém classes responsáveis pela interface com o usuário (neste caso, interações via terminal).
-    - **utils/**: Contém classes utilitárias para suporte ao restante do código.
+    - **model/**: Contém as classes de modelo que representam os diferentes personagens jogáveis.
+    - **controller/**: Responsável pela lógica de controle e fluxo do jogo, como as telas de cadastro, login e jogo.
+    - **view/**: Define as interações com o usuário (neste caso, via terminal).
 
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias ou correções.
 
+1.  Faça um fork do repositório.
+2.  Crie uma nova branch (`git checkout -b feature/sua-feature`).
+3.  Commit suas mudanças (`git commit -am 'Adiciona nova feature'`).
+4.  Faça um push para a branch (`git push origin feature/sua-feature`).
+5.  Crie um novo Pull Request.
+
 ## Licença
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
 
 ![desafio_print](https://github.com/user-attachments/assets/ea10ffbd-3e83-4a74-b52b-2329fb7d5b34)
 

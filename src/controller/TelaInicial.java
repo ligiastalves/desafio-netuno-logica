@@ -1,3 +1,5 @@
+package controller;
+
 public class TelaInicial {
 
     // Método para mostrar a tela inicial

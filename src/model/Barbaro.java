@@ -1,23 +1,26 @@
+package model;
+
 import java.util.Scanner;
 
-public class Paladino {
+public class Barbaro {
+
     private Scanner scanner = new Scanner(System.in);
     private String modeloArma;
 
     public void escolherArma() {
-        System.out.println("Você escolheu a classe Paladino.");
-        System.out.print("Escolha sua arma: [1] Lança ou [2] Escudo: ");
+        System.out.println("Você escolheu a classe Bárbaro.");
+        System.out.print("Escolha sua arma: [1] Machado ou [2] Marreta: ");
         int escolhaArma = scanner.nextInt();
 
         switch (escolhaArma) {
             case 1:
-                modeloArma = "Lança";
+                modeloArma = "Machado";
                 break;
             case 2:
-                modeloArma = "Escudo";
+                modeloArma = "Marreta";
                 break;
             default:
-                System.out.println("Opção inválida. Escolha [1] Lança ou [2] Escudo.");
+                System.out.println("Opção inválida. Escolha [1] Machado ou [2] Marreta.");
                 escolherArma(); // Reinicia a escolha de arma
                 break;
         }
